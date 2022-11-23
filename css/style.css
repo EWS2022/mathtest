@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+    font-family: 'Rock Salt', cursive;
+    position: relative;
+    min-height: 100vh;
+    height: auto;
+    padding: 5vh 0;
+}
+
+.container {
+    background-color: rgb(192, 3, 3);
+    height: auto;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+}
+
+h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.signs {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    padding: 5px 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 10px 30px;
+    margin-bottom: 60px;
+    transition: 0.4s;
+}
+
+.signs:hover{
+    background-color: rgb(165, 165, 3);
+}
+
+p {
+    color: white;
+    line-height: 150%;
+    margin-bottom: 40px;
+}
+
+label {
+    margin-bottom: 20px;
+    display: block;
+    font-size: 30px;
+    color: white;
+    line-height: 150%;
+}
+
+select {
+    margin: auto;
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-family: 'Rock Salt', cursive;
+    transition: 0.4s;
+}
+
+select:hover{
+    background-color: rgb(165, 165, 3);
+}
+
+.game_over {
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,33 @@
+@media(max-height: 700px){
+    .container{
+        position: static;
+        margin: auto;
+        transform: translate(0);
+        height: 100%;
+    }
+}
+
+@media(max-width: 603px){
+    .container{
+        border-radius: 0;
+    }
+
+    select{
+        width: 100%;
+    }
+}
+
+@media(max-width: 425px){
+    label, h1{
+        font-size: 24px;
+    }
+
+    button, .signs, .game_over{
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    .container{
+        padding: 40px 16px;
+    }
+}
