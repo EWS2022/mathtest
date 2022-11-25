@@ -1,17 +1,4 @@
-@media(max-height: 700px){
-    .container{
-        position: static;
-        margin: auto;
-        transform: translate(0);
-        height: 100%;
-    }
-}
-
 @media(max-width: 603px){
-    .container{
-        border-radius: 0;
-    }
-
     select{
         width: 100%;
     }
